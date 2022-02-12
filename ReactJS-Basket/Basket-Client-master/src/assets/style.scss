@@ -1,0 +1,93 @@
+.box-border {
+    border: 2px solid #000000;
+    box-shadow: 2px 3px #000000;
+  }
+  
+  button {
+    background-color: #2a78e4;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+    border-radius: 0;
+  }
+  
+  input {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+  }
+  
+  .main {
+    width: 60%;
+    margin: auto;
+  
+    .page-title {
+      text-align: center;
+    }
+  
+    .basket-box .container {
+      display: inline-flex;
+      float: right;
+      margin-right: 2rem;
+  
+      .item {
+        padding: 0.5rem 1rem;
+      }
+  
+      p {
+        margin: 0;
+      }
+      .content {
+        background-color: #9a00ff;
+        color: #ffffff;
+        border-right: 2px solid #000000;
+      }
+      .quantity {
+        background-color: #ffffff;
+        color: #000000;
+      }
+    }
+  
+    .goto .basket-box .container {
+      float: left;
+    }
+  
+    .checkout {
+      float: right;
+    }
+  
+    .information {
+      margin-top: 1rem;
+    }
+  
+    table {
+      width: 100%;
+  
+      td {
+        padding: 0.5rem 0;
+        
+        .remove {
+          float: right;
+        }
+      }
+  
+      .quantity, .price {
+        text-align: center;
+      }
+  
+      .text {
+        text-align: right;
+        width: 60%;
+        padding-right: 2rem;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .main {
+      width: 100%;
+    }
+  }
