@@ -4,12 +4,17 @@
   "description": "Server to support shopping basket challenges",
   "main": "server.js",
   "dependencies": {
-    "httpdispatcher": "2.x"
+    "concurrently": "^7.0.0",
+    "httpdispatcher": "2.x",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Geektastic",
   "license": "ISC"
