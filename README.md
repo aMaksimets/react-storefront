@@ -1,7 +1,9 @@
 # E-commerce site
 Simple commerce site running on nodejs with react and mimedb
 
-## How to run
+https://react-storefront-alex.netlify.app/
+
+## Setup
 1. Clone this repository
 2. run 'npm install' in main directory and inside 'client'
 3. in main directory run 'npm run dev'
@@ -9,4 +11,3 @@ Simple commerce site running on nodejs with react and mimedb
 
 ## Todo
 * Setup mongodb backend 
-* Host node on heroku & react on netlify
