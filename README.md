@@ -1,13 +1,15 @@
 # E-commerce site
-Simple commerce site running on nodejs with react and mimedb
+Simple commerce CRUD app running on nodejs, react and mimedb
 
 https://react-storefront-alex.netlify.app/
+<br/>*Takes 5 seconds to load*
 
 ## Setup
 1. Clone this repository
-2. run 'npm install' in main directory and inside 'client'
-3. in main directory run 'npm run dev'
-6. Done. 
+2. run 'npm install' in main directory
+3. run 'npm install' in client directory
+4. move to main directory 
+5. run 'npm run dev'
 
 ## Todo
-* Setup mongodb backend 
+* Connect to mongodb 
