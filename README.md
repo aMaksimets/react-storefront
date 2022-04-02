@@ -1,7 +1,6 @@
 # E-commerce site
 Simple commerce CRUD app running on nodejs, react and mimedb
-
-https://react-storefront-alex.netlify.app/
+<br/>**Live**: https://react-storefront-alex.netlify.app/
 <br/>*Takes 5 seconds to load*
 
 ## Setup
